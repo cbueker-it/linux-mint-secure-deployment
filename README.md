@@ -42,7 +42,7 @@ I used TestDisk to examine the storage device and verify the partition layout. T
 
 - `/dev/sda` identifies the physical storage device being examined.
 - `Structure: OK` confirms the disk structure was successfully read.
-- Partition list displays the detected partitions before installation.
+- `Partition` list displays the detected partitions before installation.
 
 <img src="images/testdisk-partitions.jpg" alt="TestDisk Partition Analysis" width="700"/>
 
@@ -50,11 +50,17 @@ File Recovery
 
 I used PhotoRec to demonstrate file recovery by selecting a destination for recovered files. This highlights the importance of recovering data to a different storage location to avoid overwriting recoverable information.
 
+- `PhotoRec 7.1` identifies the recovery utility used.
+- `testdisk.log` records recovery activity for later review.
+- Recovery destination shows the location where recovered files are saved without writing back to the source drive.
+
 <img src="images/photorec-output-location.jpg" alt="PhotoRec Output Location" width="700"/>
 
 Linux Mint Installation
 
 I installed Linux Mint by replacing the existing Windows installation on the workstation. This demonstrates a clean operating system deployment and prepares the computer for configuration and security hardening.
+
+- `Erase disk and install Linux Mint` performs a clean operating system installation.
 
 <img src="images/linux-install-option.jpg" alt="Linux Mint Installation Option" width="700"/>
 
