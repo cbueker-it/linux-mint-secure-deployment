@@ -24,7 +24,7 @@ Lab Objectives
 
 Create Bootable Installation Media
 
-I downloaded the Linux Mint ISO and created a bootable USB drive so the workstation could boot into the Linux Mint live environment. Using bootable installation media is the first step in deploying a new operating system on a physical machine.
+I downloaded the Linux Mint ISO and created a bootable USB drive so the workstation could boot into the Linux Mint live environment. Using bootable installation media can serve as the first step in deploying a new operating system on a physical machine.
 
 UEFI Boot Configuration
 
@@ -96,6 +96,8 @@ Summary
 I built this project to practice deploying a Linux Mint workstation from beginning to end while documenting each stage of the process. Rather than focusing only on the installation itself, I included pre-installation file recovery, system verification, networking, firewall configuration, and software updates to demonstrate a complete workstation deployment workflow.
 
 By organizing the project into work instructions with screenshots, I created documentation that another technician can follow, verify, and reproduce. This reflects the documentation practices commonly used in IT support and systems administration environments.
+
+Although I used Linux tools for this project, the concepts demonstrated - system deployment, verification, security configuration, and documentation - are fundamental systems administration practices that apply across enterprise IT environments.
 
 Navigation
 
