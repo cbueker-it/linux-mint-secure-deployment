@@ -30,9 +30,9 @@ UEFI Boot Configuration
 
 I booted the USB installer in UEFI mode before beginning the installation. Using UEFI supports modern hardware and GPT partitioning.
 
-- UEFI confirms the installer booted in UEFI mode.
-- Verbose displays the detailed boot process during startup.
-- Partition 1 confirms the installer was loaded from the bootable USB drive.
+- `UEFI` confirms the installer booted in UEFI mode.
+- `Verbatim` displays the detailed boot process during startup.
+- `Partition 1` confirms the installer was loaded from the bootable USB drive.
 
 <img src="images/uefi-boot-menu.jpg" alt="UEFI Boot Menu" width="700"/>
 
