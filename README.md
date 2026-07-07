@@ -22,6 +22,10 @@ Lab Objectives
 - Recover deleted files using PhotoRec
 - Document each configuration step using screenshots
 
+Create Bootable Installation Media
+
+I downloaded the Linux Mint ISO and created a bootable USB drive so the workstation could boot into the Linux Mint live environment. Using bootable installation media is the first step in deploying a new operating system on physical hardware.
+
 UEFI Boot Configuration
 
 I booted the installation media in UEFI mode before installing Linux Mint. Using UEFI provides support for modern hardware, GPT partitioning, and current operating system deployment standards.
@@ -87,7 +91,11 @@ Skills
 - Technical Writing
 - GitHub Documentation
 
-This project demonstrates the end-to-end deployment of a Linux Mint workstation on physical hardware. In addition to operating system installation, the project covers network validation, system security, software updates, file recovery utilities, and documentation practices commonly used in enterprise IT environments. The repository emphasizes repeatable procedures, verification steps, and clear technical documentation to reflect real-world IT support and systems administration workflows.
+Summary
+
+I built this project to practice deploying a Linux Mint workstation from beginning to end while documenting each stage of the process. Rather than focusing only on the installation itself, I included pre-installation file recovery, system verification, networking, firewall configuration, and software updates to demonstrate a complete workstation deployment workflow.
+
+By organizing the project into work instructions with screenshots, I created documentation that another technician can follow, verify, and reproduce. This reflects the documentation practices commonly used in IT support and systems administration environments.
 
 Navigation
 
