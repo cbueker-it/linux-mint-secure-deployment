@@ -98,6 +98,10 @@ System Updates
 
 I updated the operating system after installation to install the latest security patches, bug fixes, and software updates. Keeping systems current is a fundamental security practice that helps reduce exposure to known vulnerabilities.
 
+- Update Manager displays the Linux Mint update utility.
+- System is up to date confirms all available updates have been installed.
+- Last successful refresh verifies the update information has been refreshed recently.
+
 <img src="images/system-updated.png" alt="Linux Mint System Updated" width="700"/>
 
 Skills
