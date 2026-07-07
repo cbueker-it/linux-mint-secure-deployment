@@ -2,6 +2,12 @@
 
 Linux Mint workstation deployment and configuration documentation with screenshots and verification steps.
 
+I built this project to document the end-to-end deployment of a Linux Mint workstation on physical hardware. Rather than simply installing the operating system, I documented the entire process as a set of work instructions similar to the documentation used by IT departments. My goal was to create a guide that is repeatable, easy to follow, and supported with screenshots that verify each major configuration step.
+
+Throughout this project, I installed Linux Mint using UEFI firmware, configured the workstation, verified hardware and operating system information, validated network connectivity, enabled the Linux firewall, installed system updates, and explored file recovery tools such as TestDisk and PhotoRec. Each section demonstrates not only the technical task but also how I document and verify completed work.
+
+This repository emphasizes technical documentation, verification, and repeatable procedures. Every screenshot was selected to highlight an important checkpoint so that another technician could reproduce the deployment with confidence.
+
 Lab Objectives
 - Install Linux Mint on physical hardware
 - Boot using UEFI firmware
@@ -16,7 +22,53 @@ Lab Objectives
 - Recover deleted files using PhotoRec
 - Document each configuration step using screenshots
 
+UEFI Boot Configuration
 
+I booted the installation media in UEFI mode before installing Linux Mint. Using UEFI provides support for modern hardware, GPT partitioning, and current operating system deployment standards.
+
+<img src="images/uefi-boot-menu.jpg" alt="UEFI Boot Menu" width="700"/>
+
+Linux Mint Installation
+
+I installed Linux Mint by replacing the existing Windows installation on the workstation. This demonstrates a clean operating system deployment and prepares the computer for configuration and security hardening.
+
+<img src="images/linux-install-option.jpg" alt="Linux Mint Installation Option" width="700"/>
+
+System Information
+
+After installation, I verified the operating system version, Linux kernel, hardware model, and hostname. Collecting this information confirms that the workstation was successfully deployed and provides baseline documentation for future administration.
+
+<img src="images/system-information.png" alt="System Information" width="700"/>
+
+Network Connectivity
+
+I verified the workstation's network configuration by reviewing the assigned IP address, routing table, and testing Internet connectivity. This confirms that the workstation successfully obtained network settings and can communicate with external resources.
+
+<img src="images/network-connectivity.png" alt="Network Connectivity" width="700"/>
+
+Firewall Configuration
+
+I verified that the Uncomplicated Firewall (UFW) was enabled with a secure default policy. The firewall blocks unsolicited inbound traffic while allowing outbound connections, providing a secure baseline configuration for the workstation.
+
+<img src="images/ufw-default-policy.png" alt="UFW Default Policy" width="700"/>
+
+System Updates
+
+I updated the operating system after installation to install the latest security patches, bug fixes, and software updates. Keeping systems current is a fundamental security practice that helps reduce exposure to known vulnerabilities.
+
+<img src="images/system-updated.png" alt="Linux Mint System Updated" width="700"/>
+
+Disk Partition Analysis
+
+I used TestDisk to examine the storage device and verify the partition layout. This demonstrates familiarity with disk recovery utilities and the ability to inspect storage structures during troubleshooting or recovery scenarios.
+
+<img src="images/testdisk-partitions.jpg" alt="TestDisk Partition Analysis" width="700"/>
+
+File Recovery
+
+I used PhotoRec to demonstrate file recovery by selecting a destination for recovered files. This highlights the importance of recovering data to a different storage location to avoid overwriting recoverable information.
+
+<img src="images/photorec-output-location.jpg" alt="PhotoRec Output Location" width="700"/>
 
 Skills
 - Linux Mint
@@ -36,3 +88,7 @@ Skills
 - GitHub Documentation
 
 This project demonstrates the end-to-end deployment of a Linux Mint workstation on physical hardware. In addition to operating system installation, the project covers network validation, system security, software updates, file recovery utilities, and documentation practices commonly used in enterprise IT environments. The repository emphasizes repeatable procedures, verification steps, and clear technical documentation to reflect real-world IT support and systems administration workflows.
+
+Navigation
+
+[`Back to GitHub Profile`](https://www.github.com/cbueker-it)
