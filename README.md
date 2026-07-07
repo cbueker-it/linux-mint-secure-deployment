@@ -79,10 +79,10 @@ Skills
 - UEFI Boot Configuration
 - Operating System Installation
 - Workstation Deployment
-- Linux Networking
+- Computer Networking
 - IPv4 Networking
 - Hostname Configuration
-- Linux Terminal
+- Linux Terminal (Bash)
 - UFW Firewall
 - TestDisk
 - PhotoRec
