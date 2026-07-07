@@ -114,8 +114,8 @@ Skills
 - Hostname Configuration
 - Linux Terminal (Bash)
 - UFW Firewall
-- TestDisk
-- PhotoRec
+- `TestDisk`
+- `PhotoRec`
 - Package Management
 - System Documentation
 - Technical Writing
