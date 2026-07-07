@@ -28,6 +28,18 @@ I booted the installation media in UEFI mode before installing Linux Mint. Using
 
 <img src="images/uefi-boot-menu.jpg" alt="UEFI Boot Menu" width="700"/>
 
+Disk Partition Analysis
+
+I used TestDisk to examine the storage device and verify the partition layout. This demonstrates familiarity with disk recovery utilities and the ability to inspect storage structures during troubleshooting or recovery scenarios.
+
+<img src="images/testdisk-partitions.jpg" alt="TestDisk Partition Analysis" width="700"/>
+
+File Recovery
+
+I used PhotoRec to demonstrate file recovery by selecting a destination for recovered files. This highlights the importance of recovering data to a different storage location to avoid overwriting recoverable information.
+
+<img src="images/photorec-output-location.jpg" alt="PhotoRec Output Location" width="700"/>
+
 Linux Mint Installation
 
 I installed Linux Mint by replacing the existing Windows installation on the workstation. This demonstrates a clean operating system deployment and prepares the computer for configuration and security hardening.
@@ -57,18 +69,6 @@ System Updates
 I updated the operating system after installation to install the latest security patches, bug fixes, and software updates. Keeping systems current is a fundamental security practice that helps reduce exposure to known vulnerabilities.
 
 <img src="images/system-updated.png" alt="Linux Mint System Updated" width="700"/>
-
-Disk Partition Analysis
-
-I used TestDisk to examine the storage device and verify the partition layout. This demonstrates familiarity with disk recovery utilities and the ability to inspect storage structures during troubleshooting or recovery scenarios.
-
-<img src="images/testdisk-partitions.jpg" alt="TestDisk Partition Analysis" width="700"/>
-
-File Recovery
-
-I used PhotoRec to demonstrate file recovery by selecting a destination for recovered files. This highlights the importance of recovering data to a different storage location to avoid overwriting recoverable information.
-
-<img src="images/photorec-output-location.jpg" alt="PhotoRec Output Location" width="700"/>
 
 Skills
 - Linux Mint
