@@ -28,7 +28,11 @@ I downloaded the Linux Mint ISO and created a bootable USB drive so the workstat
 
 UEFI Boot Configuration
 
-I booted the installation media in UEFI mode before installing Linux Mint. Using UEFI provides support for modern hardware, GPT partitioning, and current operating system deployment standards.
+I booted the USB installer in UEFI mode before beginning the installation. Using UEFI supports modern hardware and GPT partitioning.
+
+- UEFI confirms the installer booted in UEFI mode.
+- Verbose displays the detailed boot process during startup.
+- Partition 1 confirms the installer was loaded from the bootable USB drive.
 
 <img src="images/uefi-boot-menu.jpg" alt="UEFI Boot Menu" width="700"/>
 
