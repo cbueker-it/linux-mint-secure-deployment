@@ -40,6 +40,10 @@ Disk Partition Analysis
 
 I used TestDisk to examine the storage device and verify the partition layout. This demonstrates familiarity with disk recovery utilities and the ability to inspect storage structures during troubleshooting or recovery scenarios.
 
+- `/dev/sda` identifies the physical storage device being examined.
+- `Structure: OK` confirms the disk structure was successfully read.
+- Partition list displays the detected partitions before installation.
+
 <img src="images/testdisk-partitions.jpg" alt="TestDisk Partition Analysis" width="700"/>
 
 File Recovery
