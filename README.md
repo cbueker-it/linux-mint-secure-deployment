@@ -2,11 +2,11 @@
 
 Linux Mint workstation deployment and configuration documentation with screenshots and verification steps.
 
-I built this project to document the end-to-end deployment of a Linux Mint workstation on physical hardware. Rather than simply installing the operating system, I documented the entire process as a set of work instructions similar to the documentation used by IT departments. My goal was to create a guide that is repeatable, easy to follow, and supported with screenshots that verify each major configuration step.
+I built this project to document the end-to-end deployment of a Linux Mint workstation on a Dell Inspiron 15.
 
-Throughout this project, I installed Linux Mint using UEFI firmware, configured the workstation, verified hardware and operating system information, validated network connectivity, enabled the Linux firewall, installed system updates, and explored file recovery tools such as TestDisk and PhotoRec. Each section demonstrates not only the technical task but also how I document and verify completed work.
+Throughout this project, I installed Linux Mint using UEFI firmware, configured the workstation, and verified hardware and operating system information. Using Bash, I validated network connectivity, enabled the Linux firewall, installed system updates, and explored file recovery tools such as TestDisk and PhotoRec. Each section demonstrates not only the technical task but also how I document and verify the work that I do.
 
-This repository emphasizes technical documentation, verification, and repeatable procedures. Every screenshot was selected to highlight an important checkpoint so that another technician could reproduce the deployment with confidence.
+This repository emphasizes technical documentation, verification, and repeatable procedures. Every screenshot was selected to highlight an important part so that another technician can theoretically reproduce my deployment process.
 
 Lab Objectives
 - Install Linux Mint on physical hardware
@@ -24,7 +24,7 @@ Lab Objectives
 
 Create Bootable Installation Media
 
-I downloaded the Linux Mint ISO and created a bootable USB drive so the workstation could boot into the Linux Mint live environment. Using bootable installation media is the first step in deploying a new operating system on physical hardware.
+I downloaded the Linux Mint ISO and created a bootable USB drive so the workstation could boot into the Linux Mint live environment. Using bootable installation media is the first step in deploying a new operating system on a physical machine.
 
 UEFI Boot Configuration
 
