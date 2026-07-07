@@ -41,8 +41,8 @@ Disk Partition Analysis
 I used TestDisk to examine the storage device and verify the partition layout. This demonstrates familiarity with disk recovery utilities and the ability to inspect storage structures during troubleshooting or recovery scenarios.
 
 - `/dev/sda` identifies the physical storage device being examined.
-- `Structure: OK` confirms the disk structure was successfully read.
-- `Partition` list displays the detected partitions before installation.
+- Structure: OK - confirms the disk structure was successfully read.
+- Partition list displays the detected partitions before installation.
 
 <img src="images/testdisk-partitions.jpg" alt="TestDisk Partition Analysis" width="700"/>
 
@@ -60,7 +60,7 @@ Linux Mint Installation
 
 I installed Linux Mint by replacing the existing Windows installation on the workstation. This demonstrates a clean operating system deployment and prepares the computer for configuration and security hardening.
 
-- `Erase disk and install Linux Mint` performs a clean operating system installation.
+- Erase disk and install Linux Mint performs a clean operating system installation.
 
 <img src="images/linux-install-option.jpg" alt="Linux Mint Installation Option" width="700"/>
 
@@ -68,17 +68,29 @@ System Information
 
 After installation, I verified the operating system version, Linux kernel, hardware model, and hostname. Collecting this information confirms that the workstation was successfully deployed and provides baseline documentation for future administration.
 
+- Linux Mint 22.3 confirms the installed operating system version.
+- Linux Kernel identifies the kernel version currently running.
+- Dell Inspiron 15-3567 identifies the workstation hardware.
+
 <img src="images/system-information.png" alt="System Information" width="700"/>
 
 Network Connectivity
 
 I verified the workstation's network configuration by reviewing the assigned IP address, routing table, and testing Internet connectivity. This confirms that the workstation successfully obtained network settings and can communicate with external resources.
 
+- IPv4 Address confirms the workstation received a valid address from the local network.
+- Default Gateway identifies the router used to reach external networks.
+- 0% Packet Loss confirms successful network communication during the ping test.
+
 <img src="images/network-connectivity.png" alt="Network Connectivity" width="700"/>
 
 Firewall Configuration
 
 I verified that the Uncomplicated Firewall (UFW) was enabled with a secure default policy. The firewall blocks unsolicited inbound traffic while allowing outbound connections, providing a secure baseline configuration for the workstation.
+
+- Status: Active confirms the firewall is enabled.
+- Default: Deny (Incoming) blocks unsolicited inbound network connections.
+- Default: Allow (Outgoing) allows the workstation to initiate outbound network communication.
 
 <img src="images/ufw-default-policy.png" alt="UFW Default Policy" width="700"/>
 
